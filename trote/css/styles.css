@@ -51,4 +51,18 @@ img {
 }
 h2{
     text-align: center;
+    
+}
+
+ol li {
+  padding-bottom: 10px;
+
+}
+
+table tr td {
+    padding-bottom: 20px;
+    
+}
+ table {
+    margin: 0 auto; /* centralizar a tabela */
 }
