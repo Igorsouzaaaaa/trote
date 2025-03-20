@@ -36,6 +36,7 @@ button:hover {
 .imagem {
     border-radius: 50%;
     width: 300px; ;/* largura */
+    position: relative;
     height: 300px; /* altura m*/
     margin-bottom: 10px; /* espaçamento externo */
 }

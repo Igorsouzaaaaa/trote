@@ -6,7 +6,7 @@ body {
     text-align: center; /* texto centralizado */
 }
 header {
-    background-color: rgb(0, 162, 255);
+    background-color:rgb(23, 104, 209);
     color: white;
     /* 15px (espaçamento interno acima e abaixo) e 0px (direita e esquerda)*/
     padding: 15px 0px;
@@ -21,7 +21,7 @@ nav {
 }
 #links-menu{
     display: flex;
-    gap: 30px; /* distância entre os itens do menu*/
+    gap: 20px; /* distância entre os itens do menu*/
 }
 nav a { /* configura os links do menu */
     color: white;
@@ -35,34 +35,54 @@ nav a { /* configura os links do menu */
 img {
     width: 120px;
     height: auto;
-    margin-right: 80px;
+    margin-right: 80px; /* espaçamento externo à direita */
     border-radius: 10px;
 }
 
 .container {
-    width: 80%; /* largura de 80% da largura da pagina */
+    width: 80%; /* largura de 80% da largura da página */
     background: white;
     border-radius: 10px;
-    /* espaçamento de 20px acima e abaixo */
+    /* espaçamento externo 20px acima e abaixo */
     /* espaçamento externo auto à direita e à esquerda */
     margin: 20px auto;
-    padding: 20px; /* espaçamento interno */
+    padding: 20px; /* espaçamento interno */ 
     text-align: justify;
 }
-h2{
+h2 {
     text-align: center;
-    
 }
 
 ol li {
-  padding-bottom: 10px;
-
+    padding-bottom: 10px;
 }
 
 table tr td {
-    padding-bottom: 20px;
-    
+    padding: 20px;
 }
- table {
-    margin: 0 auto; /* centralizar a tabela */
+
+table {
+    margin: 0 auto; /* centraliza a tabela na página */
+}
+
+.laranja{
+    background-color: rgb(255, 183, 49);
+}
+.preto{
+    background-color: black;
+    color: white;
+
+}
+.roxa{
+    background-color: rgb(160, 73, 160);
+}
+.verde{
+    background-color: rgb(6, 148, 6);
+}
+.vermelho{
+    background-color: rgb(250, 10, 10);
+}
+.azul{
+    background-color: navy;
+    color: white;
 }
