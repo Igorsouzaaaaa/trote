@@ -1,14 +1,21 @@
  function calcular(){
     // vamos criar 2 variáveis
     // JS as variáveis não possuem tipo 
-    let mascote, homenagem
+    let mascote, homenagem, leite, kitAvulso, suplementoAvulso
     // recupera o valor do mascote digitado pelo usuario
-
     mascote = document.getElementById("mascote").value 
-    alert(mascote)
     // recupera o valor da homenagem digitado pelo usuario
     homenagem = document.getElementById("homenagem").value
-    alert(homenagem)
-    let soma = Number(mascote) + Number(homenagem)
-    alert(soma)
+    // recuperar a qtda de litros de leite
+    leite = document.getElementById("leite").value
+    // recuperar a qtde avulsa de kit alimento
+    kitAvulso = document.getElementById("kitAvulso").value
+   // recuperar a qtde avulsa de suplemento
+   suplementoAvulso = document.getElementById("suplementoAvulso").value
+    // calcular a soma
+    let soma = Number(mascote) + Number(homenagem) + (2 * Number(leite)) + (30 * Number(kitAvulso)) + (15 * Number(suplementoAvulso))
+    // retorna o valor ao HTML
+    // template string     
+    document.getElementById("soma").innerHTML = `A soma é ${soma}`
+    
  }
