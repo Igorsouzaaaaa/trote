@@ -58,9 +58,8 @@ ol li {
 }
 
 table tr td {
-    padding: 20px;
-}
-
+    padding: 05px 20px;
+} 
 table {
     margin: 0 auto; /* centraliza a tabela na página */
 }
