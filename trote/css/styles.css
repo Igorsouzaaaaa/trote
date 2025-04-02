@@ -92,3 +92,10 @@ table {
 .campos{
     margin-bottom: 10px;
 }
+.table tr td {
+   position: relative;
+   padding: 0px 20px; 
+}
+.ul li{
+  text-align: center;
+}
