@@ -26,19 +26,21 @@ nav {
 nav a { /* configura os links do menu */
     color: white;
     text-decoration: none; /* não decora os links */
-    padding: 10px 15px; /* (10px acima e abaixo) (15px é esquerda e direita)*/
+    padding: 15px 05px; /* (10px acima e abaixo) (15px é esquerda e direita)*/
     font-size: 18px;
-    background: #0056b3;
-    border-radius: 5px; /* cantos arredondados */
+    background: #156bc7;
+    border-radius: 10px; /* cantos arredondados */
 }
-
+nav a:hover {
+    background: blue;
+    scale: 110%;
+}
 img {
     width: 120px;
     height: auto;
     margin-right: 80px; /* espaçamento externo à direita */
     border-radius: 10px;
 }
-
 .container {
     width: 80%; /* largura de 80% da largura da página */
     background: white;

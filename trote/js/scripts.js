@@ -39,7 +39,10 @@ function calcular(){
    }
    else if (equipe == "Preta"){
     // verifica quantidade de kit
-
+    if (kit >= 103 && suplemento >= 52){
+        soma = soma + 5000 + ((kit-103) * 30) + ((suplemento - 52) * 15)
+    }
+    else if (kit >= 0)
     // verifica sangue
     if(sangue >= 52)
     soma = soma + (sangue - 52) * 20
@@ -58,8 +61,13 @@ function calcular(){
     if (sangue >= 44)
     soma = soma + (sangue - 44) * 20
    }
-   else { // equipe vermelha 
+   // equipe vermelha 
+   else if (equipe == "Vermelho"){
+   // verifica quantidade de kit
 
+    // verifica sangue
+    if (sangue >= 47)
+    soma = soma + (sangue - 47) * 20
    }
    // retorna o valor ao HTML
    // template string
