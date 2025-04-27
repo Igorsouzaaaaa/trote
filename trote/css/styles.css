@@ -424,3 +424,19 @@ tbody td:last-child {
 .listaa{
     padding-left: 20px;
 }
+.animacao{
+    text-align: left;
+    padding-left: 40px;
+    text-decoration: underline;
+}
+.recreativa{
+    text-align: left;
+    padding-left: 40px;
+    text-decoration: underline;
+}
+.observacao{
+    background-color: rgb(225, 225, 131);
+}
+.listaobservacao{
+    padding-left: 50px;
+}
