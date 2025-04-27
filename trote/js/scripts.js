@@ -41,6 +41,7 @@ function calcular(){
     // verifica quantidade de kit
     if (kit >= 103 && suplemento >= 52){
         soma = soma + 5000 + ((kit-103) * 30) + ((suplemento - 52) * 15)
+    
     }
     else if (kit >= 0)
     // verifica sangue

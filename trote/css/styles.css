@@ -141,25 +141,40 @@ thead th {
     background-color: #ffbe00;
     color: black;
 }
+.destaquelaranja{
+    background-color: #ffbe00;
+}
 .preta {
     background-color: #000000;
+    color: white;
+}
+.destaquepreto{
+    background-color: #000000;
+    color:white;
 }
   
 .roxa {
    background-color: #c18aff;
    color: black;
 }
-  
- .verde {
-  background-color: #9be39b;
-    color: black;
+.destaqueroxo{
+    background-color: #c18aff;
 }
   
+ .verde {
+  background-color: #5dd45d;
+    color: black;
+}
+.destaqueverde{
+    background-color: #5dd45d;
+} 
 .vermelha {
     background-color: #ff2e2e;
     color: black;
 }
-  
+.destaquevermelho{
+    background-color: #ff2e2e;
+}
 .cursos {
     text-align: left;
     font-size: 14px;
@@ -204,7 +219,8 @@ tbody td:last-child {
     font-size: 14px;
     border: 2px solid black;
   }
-.laranja { background-color: #ffbe00; 
+.laranja { 
+    background-color: #ff8c00; 
     font-weight: bold; 
     color: black; 
 }
@@ -214,12 +230,12 @@ tbody td:last-child {
     font-weight: bold; 
 }
 .roxa { 
-    background-color: #c18aff; 
+    background-color: #b173f8; 
     font-weight: bold; 
     color: black;
  }
 .verde { 
-    background-color: #9be39b; 
+    background-color: #62de62; 
     font-weight: bold; 
     color: black; 
 }
@@ -228,7 +244,7 @@ tbody td:last-child {
     font-weight: bold; 
 }
 .cinza {
-    background-color: #a09f9f;
+    background-color: #b4b3b3;
     
 }
 .sorteio tbody tr {
@@ -236,4 +252,59 @@ tbody td:last-child {
 }
 .branco{
     background-color: white;
+}
+.titulozinho{
+    text-align: center;
+    font-size: 20px;
+}
+.tabelaazul{
+    width: auto;
+    background-color: #c1d4eb;
+    margin-left: 326px;
+    margin-right: 326px;
+}
+.amarelo{
+    width: auto;
+    background-color: rgb(225, 225, 131);
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.tituloleite{
+    text-align: left;
+    font-size: 20px;
+}
+.titulodoacao{
+    text-align: left;
+    font-size: 20px;
+}
+.tabelazuul{
+    width: auto;
+    background-color: #c1d4eb;
+    margin-left: 315px;
+    margin-right: 315px;
+}
+.titulotabela4{
+    text-align: center;
+    font-size: 20px;
+}
+.tablecontainer{
+    background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+.corcoluna{
+    width: 300px;
+}
+.colunameta{
+    width: 80px;
+}
+.corzinhalaranja{
+    background-color: orange;
+    text-align: center;
+}
+.corzinhapreta{
+    background-color: #000000;
+    color: white;
+    text-align: center;
 }
