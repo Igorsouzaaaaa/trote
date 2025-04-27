@@ -79,7 +79,7 @@ table {
 }
 
 .laranja{
-    background-color: rgb(255, 183, 49);
+    background-color:  #ff8c00;
 }
 .preto{
     background-color: black;
@@ -138,11 +138,11 @@ thead th {
     color: white;
 }
 .laranja {
-    background-color: #ffbe00;
+    background-color:  #ff8c00;
     color: black;
 }
 .destaquelaranja{
-    background-color: #ffbe00;
+    background-color: #ff8c00;
 }
 .preta {
     background-color: #000000;
@@ -162,22 +162,23 @@ thead th {
 }
   
  .verde {
-  background-color: #5dd45d;
+  background-color: #46bd46;
     color: black;
 }
 .destaqueverde{
-    background-color: #5dd45d;
+    background-color: #46bd46;
 } 
 .vermelha {
-    background-color: #ff2e2e;
+    background-color:  #f42f2f;
     color: black;
 }
 .destaquevermelho{
-    background-color: #ff2e2e;
+    background-color:  #f42f2f;
 }
 .cursos {
     text-align: left;
     font-size: 14px;
+    padding-left: 20px;
 }
 
 tbody td:last-child {
@@ -235,12 +236,12 @@ tbody td:last-child {
     color: black;
  }
 .verde { 
-    background-color: #62de62; 
+    background-color: #46bd46; 
     font-weight: bold; 
     color: black; 
 }
 .vermelha { 
-    background-color: #ff4c4c; 
+    background-color: #f42f2f; 
     font-weight: bold; 
 }
 .cinza {
@@ -272,10 +273,12 @@ tbody td:last-child {
 .tituloleite{
     text-align: left;
     font-size: 20px;
+    padding-left: 20px;
 }
 .titulodoacao{
     text-align: left;
     font-size: 20px;
+    padding-left: 20px;
 }
 .tabelazuul{
     width: auto;
@@ -287,24 +290,137 @@ tbody td:last-child {
     text-align: center;
     font-size: 20px;
 }
-.tablecontainer{
-    background: white;
-  padding: 25px;
-  border-radius: 10px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-}
 .corcoluna{
     width: 300px;
 }
 .colunameta{
-    width: 80px;
+    width: 150px;
 }
 .corzinhalaranja{
     background-color: orange;
     text-align: center;
 }
+.numberlaranja{
+    background-color: white;
+    color: black;
+}
 .corzinhapreta{
     background-color: #000000;
     color: white;
     text-align: center;
+}
+.numberpreto{
+    background-color: white;
+    color: #000000;
+}
+.corzinharoxa{
+    background-color: #b173f8;
+    color: #000000;
+    text-align: center;
+}
+.numberroxo{
+    background-color: white;
+    color: black;
+}
+.corzinhaverde{
+    background-color: #46bd46;
+    color: #000000;
+    text-align: center;
+}
+.numberverde{
+    background-color: white;
+    color: #000000;
+}
+.numbervermelho{
+    background-color: white;
+    color: black;
+}
+.corzinhavermelha{
+    background-color: #f42f2f ;
+    color: #000000;
+    text-align: center;
+}
+.titulooacao{
+    text-align: left;
+    font-size: 20px;
+    padding-left: 30px;
+}
+.atividade{
+    padding-left: 20px;
+}
+.tabelaatencaoazul{
+    width: auto;
+    background-color: #c1d4eb;
+    margin-left: 315px;
+    margin-right: 315px;
+    text-align: left;
+}
+.tabelaaaazul{
+    width: auto;
+    background-color: #c1d4eb;
+    margin-left: 501px;
+    margin-right: 501px;
+    text-align: left;
+
+}
+.tabelaacaoazul{
+    width: auto;
+    background-color: #c1d4eb;
+    margin-left: 501px;
+    margin-right: 501px;
+    text-align: left;
+}
+.obs{
+    text-align: left;
+    font-size: 10px    
+}
+.metatabela{
+    background-color: #b4b3b3;
+    color: #000000;
+}
+.pontuacaotabela{
+    background-color: #b4b3b3;
+    color: #000000;
+}
+.pontos {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    vertical-align: middle;
+}
+.pasta1{
+    text-align: left;
+}
+.pasta2{
+    text-align: left;
+}
+.integracao{
+    background-color:  #a3c3ea;
+}
+.homenagem{
+    text-decoration: underline;
+    text-align: left;
+    padding-left: 20px;
+}
+.palavras{
+    padding-left: 20px;
+}
+.listinha{
+    text-align: left;
+    padding-left: 400px;
+}
+.tabelaamarelo{
+    width: auto;
+    background-color: rgb(225, 225, 131);
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: left;
+}
+.mascoteee{
+    text-decoration:underline;
+    text-align: left;
+    padding-left: 40px;
+}
+.listaa{
+    padding-left: 20px;
 }
