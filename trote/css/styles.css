@@ -61,7 +61,8 @@ body {
     border-radius: 10px;
     margin: 20px auto;
     padding: 20px;
-    text-align: justify;
+    text-align: center;
+    
 }
 h2 {
     text-align: center;
@@ -439,4 +440,13 @@ tbody td:last-child {
 }
 .listaobservacao{
     padding-left: 50px;
+}
+.emailtrote{
+    text-align: center;
+    font-size: small;
+}
+.emailreitoria{
+    text-align: left;
+    font-size: 15px;
+    padding-left: 90px;
 }
