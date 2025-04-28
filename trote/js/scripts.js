@@ -122,5 +122,5 @@ function calcular() {
         }
     }
 
-    document.getElementById("soma").innerHTML = A soma é ${soma};
+     document.getElementById("soma").innerHTML = `A soma é ${soma}`
 }
